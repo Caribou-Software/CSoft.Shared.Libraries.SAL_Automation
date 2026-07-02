@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -File "C:\CaribouSoftwareData\SAL_Automation\GetAD_SAL_MoveToOneDrive.ps1"

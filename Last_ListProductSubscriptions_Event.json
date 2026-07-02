@@ -1,0 +1,409 @@
+﻿{
+    "eventVersion":  "1.09",
+    "userIdentity":  {
+                         "type":  "IAMUser",
+                         "principalId":  "AIDAUU6H7CBU7PKDQ7VKH",
+                         "arn":  "arn:aws:iam::319857561705:user/CLI-LicenseManager-ReadOnly",
+                         "accountId":  "319857561705",
+                         "accessKeyId":  "AKIAUU6H7CBUWD2RCBN2",
+                         "userName":  "CLI-LicenseManager-ReadOnly"
+                     },
+    "eventTime":  "2025-06-20T14:18:57Z",
+    "eventSource":  "license-manager-user-subscriptions.amazonaws.com",
+    "eventName":  "ListProductSubscriptions",
+    "awsRegion":  "us-west-2",
+    "sourceIPAddress":  "44.231.90.98",
+    "userAgent":  "aws-cli/2.27.38 md/awscrt#0.26.1 ua/2.1 os/windows#2019Server md/arch#amd64 lang/python#3.13.4 md/pyimpl#CPython m/C cfg/retry-mode#standard md/installer#exe md/prompt#off md/command#license-manager-user-subscriptions.list-product-subscriptions",
+    "requestParameters":  {
+                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                              "IdentityProvider":  {
+                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                           }
+                                                   },
+                              "NextToken":  "eyJzb3J0S2V5Ijp7InMiOiJUaGVyZXNhQ29mZmluLWFkLmNhcmlib3Vzb2Z0d2FyZS5jb20ifSwicGFydGl0aW9uS2V5Ijp7InMiOiJQcm9kdWN0VXNlcjozMTk4NTc1NjE3MDUtc2QtODVhZGNjNTYwOC1jMWl0MHdqYnZxeXJsbmNuZHhnemlsMXAifX0="
+                          },
+    "responseElements":  {
+                             "ProductUserSummaries":  [
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-84cb9945-f1a1-ff65-c371-7b95a7866501",
+                                                              "Status":  "SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-06-02T21:33:44Z",
+                                                              "Username":  "Thomas"
+                                                          },
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-04cb993d-665f-c31b-d6dc-cfc455a313ec",
+                                                              "Status":  "SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-06-02T21:12:46Z",
+                                                              "Username":  "Toby"
+                                                          },
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-34cb9945-f1b9-f2fd-19e7-79e22c7af8e7",
+                                                              "Status":  "SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-06-02T21:30:44Z",
+                                                              "Username":  "TomSr"
+                                                          },
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-38cb994c-3a5f-b61d-a987-6313028e5529",
+                                                              "Status":  "SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-06-02T21:47:44Z",
+                                                              "Username":  "TraciAdams"
+                                                          },
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-6acbbd39-2d77-359b-4dc4-f686b4c8f192",
+                                                              "Status":  "AUTO_SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-06-16T20:35:14Z",
+                                                              "Username":  "User_1"
+                                                          },
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-26cbbd39-2d4d-9f28-cb4d-e34a19165af5",
+                                                              "Status":  "AUTO_SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-06-16T20:42:15Z",
+                                                              "Username":  "User_2"
+                                                          },
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-38cb9b24-a8bc-6fbc-46ac-1041d5e5d59b",
+                                                              "Status":  "SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-06-03T14:57:45Z",
+                                                              "Username":  "WendyHandley"
+                                                          },
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-bccbad7c-e53f-5866-b8a6-bb7a0ecaff1d",
+                                                              "Status":  "AUTO_SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-06-10T17:56:14Z",
+                                                              "Username":  "administrator"
+                                                          },
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-8ccb9185-5ead-edc2-ebc1-46126bfd4816",
+                                                              "Status":  "SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-05-30T21:15:45Z",
+                                                              "Username":  "aiden"
+                                                          },
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-3ccb9185-5ef4-1268-94db-7d213558a47c",
+                                                              "Status":  "SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-05-30T21:17:46Z",
+                                                              "Username":  "bob"
+                                                          },
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-e2cb98f3-0ca2-5e9b-4001-95028730a990",
+                                                              "Status":  "SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-06-02T19:58:45Z",
+                                                              "Username":  "gerri"
+                                                          },
+                                                          {
+                                                              "Domain":  "ad.caribousoftware.com",
+                                                              "IdentityProvider":  {
+                                                                                       "ActiveDirectoryIdentityProvider":  {
+                                                                                                                               "ActiveDirectorySettings":  {
+                                                                                                                                                               "DomainCredentialsProvider":  {
+                                                                                                                                                                                                 "SecretsManagerCredentialsProvider":  {
+                                                                                                                                                                                                                                           "SecretId":  "arn:aws:secretsmanager:us-west-2:319857561705:secret:license-manager-user-admin-credentials-Q8okZt"
+                                                                                                                                                                                                                                       }
+                                                                                                                                                                                             },
+                                                                                                                                                               "DomainIpv4List":  [
+                                                                                                                                                                                      "172.31.22.152"
+                                                                                                                                                                                  ],
+                                                                                                                                                               "DomainName":  "ad.caribousoftware.com",
+                                                                                                                                                               "DomainNetworkSettings":  {
+                                                                                                                                                                                             "Subnets":  [
+                                                                                                                                                                                                             "subnet-01b00bc24418583fd",
+                                                                                                                                                                                                             "subnet-033ab83a16b2f4a17"
+                                                                                                                                                                                                         ]
+                                                                                                                                                                                         }
+                                                                                                                                                           },
+                                                                                                                               "ActiveDirectoryType":  "SELF_MANAGED",
+                                                                                                                               "DirectoryId":  "sd-85adcc5608"
+                                                                                                                           }
+                                                                                   },
+                                                              "Product":  "REMOTE_DESKTOP_SERVICES",
+                                                              "ProductUserArn":  "arn:aws:license-manager-user-subscriptions:us-west-2:319857561705:product-subscription/sub-70cb9185-5f6f-2d2f-f15d-c17b4e4c67b0",
+                                                              "Status":  "SUBSCRIBED",
+                                                              "SubscriptionStartDate":  "2025-05-30T21:16:44Z",
+                                                              "Username":  "jp"
+                                                          }
+                                                      ]
+                         },
+    "requestID":  "3c9f6531-5aa9-48a4-8a13-d74d8dca80cb",
+    "eventID":  "0bb19dca-1773-4cb8-9c8e-921da64ce877",
+    "readOnly":  false,
+    "eventType":  "AwsApiCall",
+    "managementEvent":  true,
+    "recipientAccountId":  "319857561705",
+    "eventCategory":  "Management"
+}
